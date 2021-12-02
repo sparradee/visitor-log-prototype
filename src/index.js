@@ -10,7 +10,7 @@ mongoose.set('debug', true)
 // Connect to database
 mongoose
   .connect(
-    'mongodb+srv://adminUser:rTaNFi9d6CG8wMth@cluster0.2jcll.mongodb.net/userAccess?retryWrites=true&w=majority',
+    'mongodb+srv://adminUser:***@cluster0.2jcll.mongodb.net/userAccess?retryWrites=true&w=majority',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true
